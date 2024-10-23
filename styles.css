@@ -47,3 +47,35 @@
 .score-box > .score {
   font-size: 36px;
 }
+
+.game-area>.paper,
+.scissors,
+.rock {
+  background-color: white;
+  border-radius: 50%;
+  width: 7vw;
+  height: 7vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 8px solid transparent;
+}
+
+.paper {
+  border-color: hsl(230, 89%, 61%);
+}
+
+.scissors {
+  border-color: hsl(39, 89%, 49%);
+}
+
+.rock {
+  border-color: hsl(349, 71%, 52%);
+}
+
+.game-area>.paper img,
+.game-area>.scissors img,
+.game-area>.rock img {
+  width: 50%;
+  height: auto;
+}
